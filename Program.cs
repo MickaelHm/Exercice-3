@@ -17,6 +17,9 @@ namespace ConsoleApp3
             Console.WriteLine("Ecrivez un nombre puis appuyer syr entrée");
             b = int.Parse(Console.ReadLine());
             Console.WriteLine("a=" + a + " et b=" + b);
+            a = (a + 33);
+            b++;
+            Console.WriteLine("La divison de a par b = " + (a/b));
 
         }
     }
